@@ -1,0 +1,48 @@
+{% extends 'store/layouts/main.html' %}
+{% block content %}
+
+         
+          <table style="width:100%">
+            <h1>3+ODDS</h1>
+            <tr>
+                <th>Time</th>
+                <th>Game</th>
+                <th>Prediction</th>
+                <th>Surebet</th>
+                <th>Total Odds</th>
+            </tr>
+            <tr>
+                <td>Feb 20 22.45</td>
+                <td>Torino vs Cremonense</td>
+                <td><a href="{% url 'modal' %}" class="row-link">Click to view</a></td>
+                <td>Over0.5</td>
+                <td>Not yet played</td>
+            </tr>
+            <tr>
+                <td>Feb 20 23.00</td>
+                <td>Martigues vs Villefranche</td>
+                <td><a href="{% url 'modal' %}" class="row-link">Click to view</a></td>
+                <td>1X</td>
+                <td>Not yet played</td>
+            </tr>
+            <tr>
+                <td>Feb 20 21.00</td>
+                <td>Radomiak vs Jaggiellonia</td>
+                <td><a href="{% url 'modal' %}" class="row-link">Click to view</a></td>
+                <td>Over0.5</td>
+                <td>Not yet played</td>
+            </tr>
+            <td>Feb 21 00.15</td>
+                <td>Benfica vs Boavista</td>
+                <td><a href="{% url 'modal' %}" class="row-link">Click to view</a></td>
+                <td>First half  Benfica with more goals than second half</td>
+                <td>Not yet played</td>
+            </tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>4.55</td>
+        </table>
+
+    {% endblock content %}
